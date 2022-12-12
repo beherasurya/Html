@@ -1,10 +1,16 @@
-div{
-    margin: 25px;
-    padding: 15px;
-    border:2px solid orange;
-    background-color: crimson;
-    color: white;
-    width: 450px;
+#box{
     height: auto;
-    font-family: sans-serif;
+    width: 500px;
+}
+.box-text{
+    color: gray;
+    font-style: italic;
+}
+div#box >.simple-text{
+ 
+    color: red;
+}
+div#box >p>span{
+    font-weight: bold;
+    color: black;
 }
