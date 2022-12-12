@@ -1,0 +1,31 @@
+body{
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.096);
+}
+#images{
+    width: 1000px;
+    height: auto;
+    
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color:white;
+    margin: auto;
+}
+.footer-text
+{
+    text-align: center;
+}
+.logo{
+
+    float: left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 15px;
+}
+.clearfix{
+    clear: both;
+}
