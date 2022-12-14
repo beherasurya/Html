@@ -10,10 +10,7 @@ body{
     background-color:white;
     margin: auto;
 }
-.footer-text
-{
-    text-align: center;
-}
+
 .logo{
 
     float: left;
@@ -27,7 +24,7 @@ body{
     clear: both;
 }
 .main-menu{
-    background-color: aqua;
+    background-color: green;
 }
 .main-menu > ul{
     margin: 0px;
@@ -131,4 +128,48 @@ footer >p{
     font-family: serif;
     font-style: italic;
     text-decoration: none;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+footer{
+    margin: auto;
+}
+.footer-box > ul{
+    list-style: none;
+margin: 0px;
+padding: 0px;
+}
+.footer-box > ul > li >a{
+    display: block;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box address  a{
+    color: teal;
+    font-size: small;
+}
+.bottom{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: crimson;
+    color: white;
+    
+}
+.bottom p{
+    margin: 0px;
 }
