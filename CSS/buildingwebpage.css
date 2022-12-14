@@ -173,3 +173,7 @@ padding: 0px;
 .bottom p{
     margin: 0px;
 }
+/* Page */
+.content img{
+    max-width: 100%;
+}
