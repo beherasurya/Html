@@ -90,3 +90,22 @@ footer >p{
     width: 1000px;
     margin: auto;
 }
+/*Content holder*/
+.content-holder{
+
+        background-color: royalblue;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: small;
+}
