@@ -168,7 +168,7 @@ padding: 0px;
     font-family: sans-serif;
     background-color: crimson;
     color: white;
-    
+
 }
 .bottom p{
     margin: 0px;
@@ -176,4 +176,41 @@ padding: 0px;
 /* Page */
 .content img{
     max-width: 100%;
+}
+.product{
+    height: auto;
+    width: 210px;
+    float: left;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    font-weight: 10px;
+    font-family: sans-serif;
+}
+.product-price{
+   text-align: center;
+    
+}
+.product-price a{
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+    color: white;
+}
+.product-price a:hover{
+    background-color: gold;
+    color: orangered;
+}
+.product-price del{
+    color: red;
+    font-size: small;
+}
+.product-price ins{
+    color: green;
+    font-size: large;
+}
+/*Contact Page */
+.banner iframe{
+    width: 100%;
+    height: 403px;
 }

@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../CSS/buildingwebpage.css">
+    <link rel="stylesheet" href="CSS/buildingwebpage.css">
 </head>
 <body>
 
     <div class="container">
     <header>
    <div class="logo">
-    <a href="#"><img src="../images/Logo.jpg" alt="Logo"></a>
+    <a href="#"><img src="images/Logo.jpg" alt="Logo"></a>
    </div> <!---Logo-->
 
    <div class="search">
@@ -32,36 +32,74 @@
         <ul class="drop">
             <li><a href=C:\Users\SURIYA\Desktop\FrontEnd\Html\services\service-one.html>Service One</a></li>
             <li><a href=C:\Users\SURIYA\Desktop\FrontEnd\Html\services\service-two.html>Service Two</a></li>
-            <li><a href="#">Service Three</a></li>
+            <li><a href=C:\Users\SURIYA\Desktop\FrontEnd\Html\services\service-three.html>Service Three</a></li>
 
         </ul>
         </li>
         <li><a href=C:\Users\SURIYA\Desktop\FrontEnd\Html\product.html>Product</a></li>
-        <li><a href=C:\Users\SURIYA\Desktop\FrontEnd\Html\contact-us.html>Contact</a></li>
-        
+        <li><a href="#">Contact</a></li>
+                
     </ul>
    </nav><!--nav-->
 </header><!--header-->
+<section class="banner">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.027068077505!2d78.37036991431438!3d17.458418505349165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ddb58d1b49%3A0xcfcead772f6ce1c9!2sGoogle%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1671122149981!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section><!--Google Maps-->
 <section class="content-holder"><!--Content Holder-->
-
+    
+    
         <article class="content"><!--Content-->
             <main>
-                <h1>Lorem ipsum dolor sit</h1>
+                <h1>Contact Us</h1>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolore exercitationem aliquid magnam at neque nisi ipsum quasi sint dignissimos ea, alias laboriosam delectus quam vitae natus? Sed, deserunt mollitia.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ratione alias saepe velit aliquam provident at ut vero assumenda voluptatem modi dicta, enim recusandae voluptates! Architecto eum tempore unde reiciendis?
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint blanditiis minus officia aliquid qui accusantium, culpa tenetur dolorum a non voluptates nisi voluptas. Deleniti perspiciatis laudantium accusantium. Necessitatibus, tempora totam.
-
+        
+             
                 </p>
-                <img src="../images/image3.jpg" alt="service three">
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia dolore exercitationem aliquid magnam at neque nisi ipsum quasi sint dignissimos ea, alias laboriosam delectus quam vitae natus? Sed, deserunt mollitia.
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ratione alias saepe velit aliquam provident at ut vero assumenda voluptatem modi dicta, enim recusandae voluptates! Architecto eum tempore unde reiciendis?
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint blanditiis minus officia aliquid qui accusantium, culpa tenetur dolorum a non voluptates nisi voluptas. Deleniti perspiciatis laudantium accusantium. Necessitatibus, tempora totam.
-                    
-                </p>
-            </main>
-        </article>
+                <div class="contact-form">
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Enter Name</td>
+                                <td><input type="text" name="name" required></td>
+                            </tr>
+                            <tr>
+                                <td>Enter Email</td>
+                                <td><input type="email" name="email" required></td>
+                            </tr>
+                            <tr>
+                                <td>Enter Mobile</td>
+                                <td><input type="tel" name="mob" required></td>
+                            </tr>
+                
+                            
+                                                     <tr>
+                            <td>Select country</td>
+                            <td>
+                                <select name="country" required>
+                                    <option value="India">India</option>
+                                    <option value="US">US</option>
+                                    <option value="UK">UK</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Canada">Canada</option>
+                                </select>
+                            </td>
+                           </tr>
+                           
+                           <tr>
+                            
+             <td> <textarea >Enter your Message </textarea>
+             </td>
+                                                  </tr>
+                           
+                        </table>
+                            <td><input type="submit" name="submit" value="Send Message"></td>
+                     
+                    </form>
+                </div>
+                         </main>
+                                                 
+                              </article>
         <aside class="sidebar"><!--sidebar-->
             <div>
                 <h3>Widget</h3>
@@ -126,14 +164,15 @@
             </address>
         </div>
         <div class="clearfix"></div>
-
+       
         <div class="bottom">
             <p>All rights reserved by @Surya
             </p>
               </div>
+         
     </footer>
 
-  
+     
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="http://malsup.github.com/jquery.cycle2.js"></script>
 
