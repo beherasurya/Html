@@ -31,9 +31,21 @@
 // main_content.appendChild(new_heading);
 // main_content.appendChild(new_phrase);
 
-var btn=document.getElementById('myBtn');
-btn.onclick=function()
+// var btn=document.getElementById('myBtn');
+// btn.onclick=function()
+// {
+//     alert('Hello World!');
+//     alert('Bye World');
+// };
+
+// function runMe()
+// {
+//     alert('Simple Message');
+// }
+// setTimeout(runMe,3000);
+
+function runMe()
 {
-    alert('Hello World!');
-    alert('Bye World');
-};
+    console.log('Hello');
+}
+setInterval(runMe,1000);
