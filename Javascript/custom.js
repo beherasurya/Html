@@ -70,32 +70,49 @@
 
 
 // var u_name=document.myForm.u_name,message=document.getElementById("message");function runMe(){u_name.value.length<3?(message.innerHTML="need more characters",message.style.color="red",u_name.style.backgroundColor="red",u_name.style.color="white"):5==u_name.value.length?(message.innerHTML="Nice,OK",message.style.color="green",u_name.style.backgroundColor="green",u_name.style.color="white"):u_name.value.length>=8&&(message.innerHTML="Limit Excedeed",message.style.color="orange",u_name.style.backgroundColor="orange",u_name.style.color="white")}
-var u_name=document.myForm.u_name;
-var message=document.getElementById('message');
+// var u_name=document.myForm.u_name;
+// var message=document.getElementById('message');
 
-function runMe()
+// function runMe()
+// {
+//     if(u_name.value.length <3)
+//     {
+//         message.innerHTML="need more characters";
+//         message.style.color="red";
+//         u_name.style.backgroundColor="red";
+//         u_name.style.color="white";
+//     }
+//     else
+//     if(u_name.value.length ==5)
+//     {
+//         message.innerHTML="Nice,OK";
+//         message.style.color="green";
+//         u_name.style.backgroundColor="green";
+//         u_name.style.color="white";
+//     }
+//     else 
+//     if(u_name.value.length >=8)
+//     {
+//         message.innerHTML="Limit Excedeed";
+//         message.style.color="orange";
+//         u_name.style.backgroundColor="orange";
+//         u_name.style.color="white";
+//     }
+// }
+
+"use strict";
+var something="Hello World";
+
+//duplicate parameters
+var person={
+    u_name:1,
+    u_anotherName:2
+};
+
+//function parameter error
+function myFunction(a,b,c)
 {
-    if(u_name.value.length <3)
-    {
-        message.innerHTML="need more characters";
-        message.style.color="red";
-        u_name.style.backgroundColor="red";
-        u_name.style.color="white";
-    }
-    else
-    if(u_name.value.length ==5)
-    {
-        message.innerHTML="Nice,OK";
-        message.style.color="green";
-        u_name.style.backgroundColor="green";
-        u_name.style.color="white";
-    }
-    else 
-    if(u_name.value.length >=8)
-    {
-        message.innerHTML="Limit Excedeed";
-        message.style.color="orange";
-        u_name.style.backgroundColor="orange";
-        u_name.style.color="white";
-    }
+    return a+b+c;
 }
+//output data
+document.getElementById("heading").innerHTML=something;
