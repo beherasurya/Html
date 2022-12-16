@@ -44,8 +44,26 @@
 // }
 // setTimeout(runMe,3000);
 
+// function runMe()
+// {
+//     console.log('Hello');
+// }
+// setInterval(runMe,1000);
+
+var u_name=document.myForm.u_name;
+var u_pass=document.myForm.u_pass;
+
+var username="virat";
+var password="123";
+
 function runMe()
 {
-    console.log('Hello');
+    if(u_name.value == username && u_pass.value ==password)
+    {
+        console.log('Login Success');
+    }
+    else
+    {
+        console.log('Login Error');
+    }
 }
-setInterval(runMe,1000);
