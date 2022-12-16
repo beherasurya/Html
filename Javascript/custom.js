@@ -50,20 +50,50 @@
 // }
 // setInterval(runMe,1000);
 
-var u_name=document.myForm.u_name;
-var u_pass=document.myForm.u_pass;
+// var u_name=document.myForm.u_name;
+// var u_pass=document.myForm.u_pass;
 
-var username="virat";
-var password="123";
+// var username="virat";
+// var password="123";
+
+// function runMe()
+// {
+//     if(u_name.value == username && u_pass.value ==password)
+//     {
+//         console.log('Login Success');
+//     }
+//     else
+//     {
+//         console.log('Login Error');
+//     }
+// }
+
+var u_name=document.myForm.u_name;
+var message=document.getElementById('message');
 
 function runMe()
 {
-    if(u_name.value == username && u_pass.value ==password)
+    if(u_name.value.length <3)
     {
-        console.log('Login Success');
+        message.innerHTML="need more characters";
+        message.style.color="red";
+        u_name.style.backgroundColor="red";
+        u_name.style.color="white";
     }
     else
+    if(u_name.value.length ==5)
     {
-        console.log('Login Error');
+        message.innerHTML="Nice,OK";
+        message.style.color="green";
+        u_name.style.backgroundColor="green";
+        u_name.style.color="white";
+    }
+    else 
+    if(u_name.value.length >=8)
+    {
+        message.innerHTML="Limit Excedeed";
+        message.style.color="orange";
+        u_name.style.backgroundColor="orange";
+        u_name.style.color="white";
     }
 }
