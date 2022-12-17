@@ -19,10 +19,20 @@
         console.log(`This phone has ${this.storage} Storage and${this.ram} Ram`);
     }
    }
+
+   class OldPhones extends Mobiles
+   {
+        constructor()
+        {
+            super("4GB","1GB");
+        }
+   }
    var myNewPhone=new Mobiles("64GB","8GB");
    myNewPhone.phoneDetails();
    new Mobiles("64GB","2GB").phoneDetails();
    
+   var myOldPhone=new OldPhones();
+   myOldPhone.phoneDetails();
    </script>
 </head>
 <body>
