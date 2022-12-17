@@ -7,9 +7,22 @@
     <title>Document</title>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="text/babel">
-        var developersList=developers =>console.log(developers);
-        console.log(["John","Jane","Smith"]);
+        // var developersList=developers =>console.log(developers);
+        // console.log(["John","Jane","Smith"]);
 
+        var person={
+            first:"John",
+            actions:["Bike","hike","Ski","Surf"],
+            printAction(){
+
+                this.actions.forEach(action=>{
+                    var str=this.first+" likes to "+action;
+                    console.log(str);
+                });
+            }
+            
+        }
+        person.printAction();
         </script>
 </head>
 <body>
